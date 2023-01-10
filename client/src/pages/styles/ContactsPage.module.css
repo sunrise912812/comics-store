@@ -1,0 +1,27 @@
+.MyContactsHeader{
+    color: #0A78D6;
+    margin-bottom: 20px;
+}
+
+.MyContacts{
+    min-height: 300px;
+}
+
+.MyContactsItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MyContactsItem:nth-child(odd){
+    background-color: #D0F7F3;
+}
+
+.MyContactsItem div{
+    padding: 10px;
+    width: 50%;
+    color: #555;
+    font-weight: 700;
+    font-size: 14px;
+}

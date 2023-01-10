@@ -1,0 +1,145 @@
+.MyNavbar{
+    width: 100%;
+    height: 75px;
+    background-color: #0A78D6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MyNavbarleft{
+    width: 0.7fr;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MyNavbarleft .MyNavbarleftCatalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 350;
+    cursor: pointer;
+    text-align: center;
+}
+
+.MyNavbarleft .MyNavbarleftCatalog div{
+    height: 4px;
+    width: 35px;
+    background-color: #fff;
+    margin-bottom: 4.5px;
+    border-radius: 5px;
+
+}
+
+.iconBar{
+    width: 100px;
+    height: 50px;
+    background: url('../../../assets/comicIcon.png') no-repeat center center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.MyNavbarright{
+    width: 0.3fr;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MyNavbarright ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.MyNavbarright ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.MyNavbarright ul li:hover{
+    cursor: pointer;
+}
+
+.MyNavbarright ul li.dropDownListNavbar ul{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+    margin: 0px;
+    padding: 0px;
+}
+
+.MyNavbarright ul li.dropDownListNavbar:hover ul{
+    display: block;
+}
+
+.MyNavbarright ul li.dropDownListNavbar:hover ul li{
+    color: #0A78D6;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.MyNavbarright ul li.dropDownListNavbar:hover ul li a{
+    color: #0A78D6;
+}
+
+.MyNavbarright ul li.dropDownListNavbar:hover ul li a{
+    text-decoration: none;
+}
+
+.MyNavbarright ul li.dropDownListNavbar:hover ul li:hover{
+ background-color: #FFC107;
+ width: 100%;
+ color:#000;
+}
+
+.MyNavbar .MyNavbarright .MyNavbarBasket{
+    position: relative;
+}
+
+.MyNavbar .MyNavbarright .MyNavbarBasket .MyNavbarBasketCount{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -8px;
+    left: 16px;
+    background-color: #FFC107;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+    border: 2px solid #fff;
+}

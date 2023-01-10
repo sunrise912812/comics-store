@@ -1,0 +1,337 @@
+.ComicOnePageLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ComicOnePageLeft .ComicOneMainImg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    border: 1px solid #d3d3d3;
+
+}
+
+.ComicOneCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ComicOneCenter .ComicOneCenterName{
+    color: #0A78D6;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ComicOneCenter .ComicOneCenterRaiting{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.ComicOneCenter .ComicOneCenterRaiting img{
+    width: 25px;
+    height: 21px;
+    margin-right: 7px;
+    margin-left: 10px;
+}
+
+.ComicOneCenter .ComicOneCenterRaiting span{
+    font-size: 22px;
+    font-weight: 500;
+    color:crimson;
+}
+
+.ComicOneCenter .ComicOneCenterPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ComicOneCenter .ComicOneCenterPrice span{
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color:crimson;
+}
+
+.ComicOneCenter .ComicOneCenterDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ComicOneCenter .ComicOneCenterDescription p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ComicOneCenter .ComicOneCenterDescription span{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.ComicOnePageRight{
+    width: 250px;
+    height: 200px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.ComicOnePageRight .ComicOnePageRightBtn{
+    width: 180px;
+    margin-top: 25px;
+}
+
+.ComicOnePageRight h5{
+    font-size: 18px;
+}
+
+.ComicOnePageRight .ComicOneRightPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;  
+    margin-top: 5px;
+}
+
+.ComicOnePageRight .ComicOneRightPrice span{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color:crimson;
+}
+
+.ComicOnePageRight .ComicOneRightCount{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ComicOnePageRight .ComicOneRightCount input[type=number]{
+    margin-left: 10px;
+    width: 45%;
+}
+
+.ComicInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.ComicInfo h5{
+    color: crimson;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.ComicInfo .ComicInfoItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.ComicInfo .ComicInfoItem:nth-child(even){
+ background-color: #e3e3e3;
+}
+
+.ComicInfo .ComicInfoItem .ComicInfoTitle{
+    width: 50%;
+    font-weight: 600;
+}
+
+.ComicInfo .ComicInfoItem .ComicInfoDescription{
+    width: 50%;
+}
+
+.MyCardReviews{
+    border-top: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.MyCardReviews h5{
+    color: crimson;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.MyCardReviews .CardReviewsItem{
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.MyCardReviews .CardReviewsItemRaiting img{
+    width: 25px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+.MyCardReviews .CardReviewsItemDate{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 14px;
+    color:#555;
+}
+
+.MyCardReviews .CardReviewsItemUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.MyCardReviews .CardReviewsItemUser span{
+    color: #0A78D6;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.MyCardReviews .CardReviewsItemRaiting{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.MyCardReviews .CardReviewsItemRaiting span{
+    color: crimson;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.MyCardReviews .CardReviewsItemText{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.MyCardReviewAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+.MyCardReviewAdd .MyCardReviewAddRaiting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    height: 21px; 
+}
+
+.MyCardReviewAdd .MyCardReviewAddRaiting .MyCardReviewRaitingOcenka{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MyCardReviewAdd .MyCardReviewAddRaiting .MyCardReviewRaitingOcenka .MyCardReviewRaitingOcenkaImg{
+    width: 25px;
+    height: 21px;   
+    margin-left: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MyCardReviewAdd .MyCardReviewAddRaiting .MyCardReviewAddCount{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.MyCardReviewAdd .MyCardReviewRaitingProcent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 21px;
+}
+
+.MyCardReviewAdd .MyCardReviewRaitingProcent .MyCardReviewRaitingProcentFull{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 2px;
+    background-color: #e3e3e3;
+}
+
+.MyCardReviewAdd .MyCardReviewRaitingProcent .MyCardReviewRaitingProcentMain{
+    display: block;
+    height: 2px;
+    background-color: #0A78D6;
+}

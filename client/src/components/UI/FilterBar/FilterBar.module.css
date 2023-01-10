@@ -1,0 +1,12 @@
+.MyFilterBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.MyFilterBar .MyFilterBarSort{
+    margin-left: 20px;
+}

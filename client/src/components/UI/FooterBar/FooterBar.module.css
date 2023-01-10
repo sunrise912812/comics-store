@@ -1,0 +1,45 @@
+.MyFooterBar{
+    width: 100%;
+    height: 140px;
+    background-color: #F3F3F3;
+    border-top: 1px solid #D3D3D3;
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+}
+
+.MyFooterBar div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyFooterBar div:nth-child(2){
+    margin-right: 35px;
+}
+
+.MyFooterBar img{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.MyFooterBar .MyFooterBarLink a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.MyFooterBarLink .MyFooterBarLinkToShop{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    color: #0D6EFD;
+}
+
+.MyFooterBarLink .MyFooterBarLinkToShop:hover{
+    cursor: pointer;
+}

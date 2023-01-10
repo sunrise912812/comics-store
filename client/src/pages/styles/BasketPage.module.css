@@ -1,0 +1,106 @@
+.MyBasketPage{
+    margin-top: 20px;
+}
+.MyBasketPage h3{
+    font-size: 24px;
+    color: #0A78D6;
+    margin-bottom: 20px;
+}
+
+.MyBasketPage .MyBasketPageLeft{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-column-gap: 20px;
+    height : 70px;
+    background-color: #F3F3F3;
+    border-top: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+}
+
+.MyBasketPage .MyBasketPageLeft div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #555555;
+}
+
+.MyBasketPage .MyBasketPageLeft .MyBasketPageLeftMain{
+    justify-content: flex-start;
+}
+
+.MyBasketPage .MyBasketPageRight{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-column-gap: 20px;
+    height : 70px;
+    background-color: #F3F3F3;
+    border-top: 1px solid #e3e3e3;
+}
+
+.MyBasketPage .MyBasketPageRight div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #555555;
+}
+
+ .MyBasketPageLeftContentMain{
+    justify-content: flex-start;
+}
+
+ .MyBasketPageLeftContentMain h5{
+    font-size: 20px;
+    color: #0A78D6;
+}
+
+  .MyBasketPageLeftContentMain .MyBasketPageLeftContentImg{
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 180px;
+}
+
+ .MyBasketPageLeftContentMain .MyBasketPageLeftContentInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.MyBasketPageLeftContentMain .MyBasketPageLeftContentInfo .MyBasketPageLeftContentInfoDate{
+    font-size: 14px;
+    color: #555;
+}
+
+.MyBasketPageLeftContentCount{
+    width: 70px;
+}
+
+.MyBasketPageLeftContenPrice{
+    color: crimson;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.CardBasketOrder{
+    padding: 20px;
+}
+
+.CardBasketOrder h5{
+    margin-bottom: 20px;
+}
+
+.CardBasketOrder h5 span{
+    color: crimson;
+}

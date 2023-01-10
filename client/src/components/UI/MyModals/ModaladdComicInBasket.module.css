@@ -1,0 +1,62 @@
+.MyModalBasketLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyModalBasketLeft .MyModalBasketLeftImg{
+    width: 170px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.MyModalBasketLeft h5{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color : #0A78D6;
+}
+
+.MyModalBasketRight{
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    grid-row-gap: 15px;
+}
+
+.MyModalBasketRight .MyModalRightTitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MyModalBasketRight .MyModalRightDescription{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.MyModalBasketRight .MyModalRightDescriptionPrice{
+    color: crimson;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.MyModalBasketRight .MyModalRightDescriptionRaiting{
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.MyModalBasketRight .MyModalRightDescriptionRaiting .RaitingImg{
+    width: 25px;
+    height: 21px;
+    margin-right: 7px;
+}
